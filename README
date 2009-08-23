@@ -1,0 +1,29 @@
+Shortshorts
+===========
+
+Make your models show some skin.
+
+
+
+script/generate shortshorts_migration
+rake db:migrate
+
+
+Routes:
+map.shortshorts
+
+
+
+
+Example
+=======
+
+
+
+You can put all short urls into a subdirectory by specifying a string in Routes:
+map.shortshorts "i"    # creates: http://example.com/i/4ZPn
+
+
+
+
+Copyright (c) 2009 Nikolai Warner, released under the MIT license
